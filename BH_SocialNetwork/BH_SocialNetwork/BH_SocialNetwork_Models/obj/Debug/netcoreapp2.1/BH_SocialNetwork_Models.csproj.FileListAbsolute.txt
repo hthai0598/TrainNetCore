@@ -1,0 +1,11 @@
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\bin\Debug\netcoreapp2.1\BH_SocialNetwork_Models.deps.json
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\bin\Debug\netcoreapp2.1\BH_SocialNetwork_Models.runtimeconfig.json
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\bin\Debug\netcoreapp2.1\BH_SocialNetwork_Models.runtimeconfig.dev.json
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\bin\Debug\netcoreapp2.1\BH_SocialNetwork_Models.dll
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\obj\Debug\netcoreapp2.1\BH_SocialNetwork_Models.csproj.CoreCompileInputs.cache
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\obj\Debug\netcoreapp2.1\BH_SocialNetwork_Models.AssemblyInfoInputs.cache
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\obj\Debug\netcoreapp2.1\BH_SocialNetwork_Models.AssemblyInfo.cs
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\bin\Debug\netcoreapp2.1\BH_SocialNetwork_Models.pdb
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\obj\Debug\netcoreapp2.1\BH_SocialNetwork_Models.dll
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\obj\Debug\netcoreapp2.1\BH_SocialNetwork_Models.pdb
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_Models\obj\Debug\netcoreapp2.1\BH_SocialNetwork_Models.csprojAssemblyReference.cache

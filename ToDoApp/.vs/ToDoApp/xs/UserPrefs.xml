@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{25C3CED7-1A1F-449E-8214-0D7D269EC69B}|ToDoApp">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoApp/Controllers/StudentController.cs">
+    <Files>
+      <File FileName="DAL/Repository/StudentRepository.cs" Line="23" Column="1" />
+      <File FileName="DAL/Repository/Repository.cs" Line="19" Column="10" />
+      <File FileName="ToDoApp/Controllers/StudentController.cs" Line="27" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoApp" expanded="True" selected="True">
+            <Node name="ToDoApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DAL PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects" />
+  </MultiItemStartupConfigurations>
+</Properties>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BH_SocialNetwork_API", "BH_SocialNetwork_API\BH_SocialNetwork_API.csproj", "{FFE7C7D6-C1AF-4138-B947-69A3D6E8DE47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BH_SocialNetwork_Models", "BH_SocialNetwork_Models\BH_SocialNetwork_Models.csproj", "{1ECC5C92-EAF0-4AE3-8548-83F0AAD422E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFE7C7D6-C1AF-4138-B947-69A3D6E8DE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE7C7D6-C1AF-4138-B947-69A3D6E8DE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE7C7D6-C1AF-4138-B947-69A3D6E8DE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE7C7D6-C1AF-4138-B947-69A3D6E8DE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECC5C92-EAF0-4AE3-8548-83F0AAD422E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECC5C92-EAF0-4AE3-8548-83F0AAD422E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECC5C92-EAF0-4AE3-8548-83F0AAD422E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECC5C92-EAF0-4AE3-8548-83F0AAD422E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A82CFCE-5B52-43CA-BEEE-4DE55585BC48}
+	EndGlobalSection
+EndGlobal

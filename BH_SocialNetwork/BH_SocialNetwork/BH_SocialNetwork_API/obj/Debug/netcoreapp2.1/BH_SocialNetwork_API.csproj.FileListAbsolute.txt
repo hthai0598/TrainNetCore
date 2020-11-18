@@ -1,0 +1,17 @@
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.csprojAssemblyReference.cache
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.csproj.CoreCompileInputs.cache
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.RazorAssemblyInfo.cache
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.RazorAssemblyInfo.cs
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.AssemblyInfoInputs.cache
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.AssemblyInfo.cs
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.RazorTargetAssemblyInfo.cache
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\bin\Debug\netcoreapp2.1\BH_SocialNetwork_API.deps.json
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\bin\Debug\netcoreapp2.1\BH_SocialNetwork_API.runtimeconfig.json
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\bin\Debug\netcoreapp2.1\BH_SocialNetwork_API.runtimeconfig.dev.json
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\bin\Debug\netcoreapp2.1\BH_SocialNetwork_API.dll
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\bin\Debug\netcoreapp2.1\BH_SocialNetwork_API.pdb
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.dll
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.pdb
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\bin\Debug\netcoreapp2.1\BH_SocialNetwork_Models.dll
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\bin\Debug\netcoreapp2.1\BH_SocialNetwork_Models.pdb
+E:\BacHaSoftTraining\BH_SocialNetwork\BH_SocialNetwork\BH_SocialNetwork_API\obj\Debug\netcoreapp2.1\BH_SocialNetwork_API.csproj.CopyComplete
