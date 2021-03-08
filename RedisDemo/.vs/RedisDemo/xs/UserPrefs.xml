@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{82048794-6897-4D33-AE07-3A6BCFC8E282}|Default">
+  <MonoDevelop.Ide.ItemProperties.RedisDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RedisDemo/Attributes/CacheAttribute.cs">
+    <Files>
+      <File FileName="RedisDemo/Attributes/CacheAttribute.cs" Line="45" Column="24" />
+      <File FileName="RedisDemo/Service/ResponseCacheService.cs" Line="51" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RedisDemo" expanded="True">
+            <Node name="RedisDemo" expanded="True">
+              <Node name="Attributes" expanded="True">
+                <Node name="CacheAttribute.cs" selected="True" />
+              </Node>
+              <Node name="Configurations" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Installer" expanded="True" />
+              <Node name="Service" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
