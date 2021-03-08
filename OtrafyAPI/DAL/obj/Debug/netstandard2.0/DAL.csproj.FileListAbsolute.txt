@@ -1,0 +1,9 @@
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\DAL\bin\Debug\netstandard2.0\DAL.dll
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\DAL\bin\Debug\netstandard2.0\DAL.pdb
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\DAL\obj\Debug\netstandard2.0\DAL.dll
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\DAL\obj\Debug\netstandard2.0\DAL.pdb
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache

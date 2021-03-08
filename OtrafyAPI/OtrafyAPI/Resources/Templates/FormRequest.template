@@ -1,0 +1,92 @@
+﻿<div style="background:#E5E5E5;height:100%;margin:0;padding:0;width:100%;">
+  <center>
+    <table width="100%" style="background:#E5E5E5;max-width:600px!important" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td>
+            <table align="center" style="margin:0 auto" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td style="padding:20px 0; background: #F2F3F9;">
+
+                  </td>
+                </tr>
+                <tr>
+                  <td style="background: linear-gradient(180deg, #2ECF94 -0.11%, #3DBEA3 99.95%); height:10px;"></td>
+                </tr>
+                <tr>
+                  <td style="background:#fff;padding:31px 20px 0">
+                    <table width="600" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <table width="500" align="center" style="margin:0 auto" cellpadding="0" cellspacing="0">
+                              <tbody>
+                                <tr>
+                                  <td style="padding:0 0px 20px">
+                                    <img src="{appurl}/resources/images/logo.png" alt="Otrafy" />
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="line-height: 30px;">
+                                    Hi {fullname},
+                                    <br /> {usersend_fullname} has send request to you!
+                                  </td>
+                                </tr>
+
+                                <tr>
+                                  <td style="padding:5px 0 5px">
+                                    <table cellpadding="0" cellspacing="0">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            {message}
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="line-height: 30px;">                                 
+                                    Thanks and Best regards,
+                                    <br /> {appname} Team
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="height:30px;"></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td style="left: 0px;right: 0px;top: 340px;bottom: 0px;background: linear-gradient(179.97deg, #2ECF94 -0.11%, #3DBEA3 99.95%);height: 60px;">
+                    <table width="500px" align="center" style="margin:0 auto" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td align="center" style="color:#fff;">
+                            <img style="width: 14px;vertical-align: bottom;padding-right: 5px;" src="{appurl}/resources/images/icon_marker.png" />• 370 Wabasha St, St Paul, MN 55101
+                          </td>
+                          <td align="center" style="color:#fff;">
+                            <img style="width: 12px;vertical-align: bottom;padding-right: 5px;" src="{appurl}/resources/images/icon_mobile.png" />+1(313) 398-8116
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </center>
+</div>

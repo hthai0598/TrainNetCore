@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OtrafyAPI</name>
+    </assembly>
+    <members>
+        <member name="M:OtrafyAPI.Controllers.AccountController.CreateUser(BLL.Models.RegisterParams)">
+            <summary>
+            Create User (role administrator)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            - **role**: 0: administrator; 1: buyers; 2: suppliers
+            </remarks>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.AccountController.GetCurrentUser">
+            <summary>
+            Get current user info (role administrator, buyer, supplier)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.AccountController.UpdateProfile(BLL.Models.UserProfilesParam)">
+            <summary>
+            Update user profile (role administrator, buyer, supplier)
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.AccountController.UploadProfilePicture(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Update user profile avatar (role administrator, buyer, supplier)
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.AccountController.ForgotPassword(OtrafyAPI.ViewModel.ForgotPasswordViewModel)">
+            <summary>
+            Forgot password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.AccountController.ValidToken(OtrafyAPI.ViewModel.ValidTokenViewModel)">
+            <summary>
+            Check token is valid?
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.AccountController.ActiveInvite(BLL.Models.ActiveInviteParam)">
+            <summary>
+            Active invite
+            </summary>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.AccountController.ResetPassword(OtrafyAPI.ViewModel.ResetPasswordViewModel)">
+            <summary>
+            Reset Password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.AuthController.CreateToken(OtrafyAPI.ViewModel.LoginViewModel)">
+            <summary>
+            General token
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.AuthController.RefreshToken(OtrafyAPI.ViewModel.RefreshTokenViewModel)">
+            <summary>
+            Refresh token
+            </summary>
+            <param name="refreshToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.CreateBuyer(BLL.Models.InviteBuyerParams)">
+            <summary>
+            Create buyer (role administrator)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            - **Permission**: 0: Run report; 1: View all supplier; 2: Create form template; 3: Create new supplier
+            </remarks>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetAllBuyerOfCompany(System.String,BLL.Models.GetFilterParams)">
+            <summary>
+            Get all buyer of company (search, paging, order)  (role administrator)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            - **pageNumber**: number of page
+            - **pageSize**: number of records per page
+            - **SortType**: 0 = Ascending ; 1 = Descending
+            - **SortOn**: is the name of field
+            - **FilterBy**: name of field for filter
+            - **FilterValue**: value of field for filter      
+            ex: /api/company?pageSize=10&#38;pageNumber=0&#38;SortType=0&#38;SortOn=DateCreated
+            ex: /api/company?SortType=0&#38;SortOn=DateCreated&#38;pageNumber=0&#38;pageSize=10&#38;FilterBy=Name&#38;FilterValue=Công ty ABC&#38;FilterBy=address&#38;FilterValue=Toàn
+            ex: Filter/Search Multiple Fields in one textbox: /api/buyers/get-all-buyers?pageSize=10&#38;pageNumber=1&#38;CompanyId=5e04e609-f056-4d7b-87b0-aada009ad9c2&#38;FilterBy=Name&#38;FilterBy=Username&#38;FilterValue=trung&#38;FilterValue=trung001
+            </remarks>
+            <param name="CompanyId"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.Resend(OtrafyAPI.ViewModel.ResendInviteViewModel)">
+            <summary>
+            Resend invite buyer (role administrator)
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.Delete(System.String)">
+            <summary>
+            Delete Buyer by Id (role administrator)
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.CreateFormsDesigner(BLL.Models.FormParam)">
+            <summary>
+            Create Form (role buyer)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            </remarks>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.DeleteForm(System.String,System.String)">
+            <summary>
+            Delete form by Id (role buyer)
+            </summary>
+            <param name="companyId"></param>
+            <param name="formId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetAllForms(BLL.Models.GetFilterParams)">
+            <summary>
+            Get all forms of company (search, paging, order) (role buyer) 
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            </remarks>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetListForms(System.String)">
+            <summary>
+            Get list forms (role buyer)
+            </summary>
+            <returns>List drp form</returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetListBuyerInContact(System.String)">
+            <summary>
+            Get list last buyer in contact (role buyer)
+            </summary>
+            <returns>List drp form</returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetFormDetail(System.String)">
+            <summary>
+            Get form detail (role buyer) 
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            </remarks>
+            <param name="formId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.UpdateFormById(System.String,BLL.Models.FormParam)">
+            <summary>
+            Update Form by Id (role: buyer)
+            </summary>
+            <param name="formId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.CreateFormRequest(BLL.Models.NewRequestParam)">
+            <summary>
+            Create New Request (role buyer)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            productId: Choose supplier to get productId
+            form: ["formId","formid"..]
+            </remarks>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetAllFormRequestBySupplierId(System.String,BLL.Models.GetFilterParams)">
+            <summary>
+            Get all form request by supplier id (search, paging, order) (role buyer) 
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            Status: pending = 1; inprogress =2; completed = 3; rejected = 4; approved = 5
+            </remarks>
+            <param name="supplierId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetFormRequestDetail(System.String,System.String)">
+            <summary>
+            View Filled form request detail (role buyer) 
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            </remarks>
+            <param name="formRequestId"></param>
+            <param name="supplierId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.UpdateStatusFormRequest(System.String,System.String,BLL.Models.FormRequestStatusParam)">
+            <summary>
+            Update status for form request (Approve, Reject) (role: buyer)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            API allow buyer update status form request to (status = 5 approve; status = 4 reject)
+            </remarks>
+            <param name="supplierId"></param>
+            <param name="formRequestId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.DeleteFormRequest(System.String,System.String)">
+            <summary>
+            Delete form request by Id (role buyer)
+            </summary>
+            <param name="supplierId"></param>
+            <param name="formRequestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.ResendFormRequest(BLL.Models.ResendFormRequestParam)">
+            <summary>
+            Resend form request (role buyer)
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.AddCommentToFormRequest(System.String,System.String,BLL.Models.FormRequestCommentParam)">
+            <summary>
+            Add comment to form request (role: buyer)
+            </summary>
+            <param name="supplierId"></param>
+            <param name="formrequestId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetAllCommentOfFormRequestByID(System.String,System.String,BLL.Models.CommentsSortByParam)">
+            <summary>
+            Get all comment of form request by id (role: buyer)
+            </summary>
+            <param name="supplierId"></param>
+            <param name="formrequestId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.UpdateTags(System.Collections.Generic.List{System.String})">
+            <summary>
+            Add Tags the buyer's company (role buyer)
+            </summary>        
+            <remarks>
+            ### Descriptions  ###
+            API allow buyer update new tags the buyer's company
+            </remarks>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.FilterTags(System.String)">
+            <summary>
+            Get All Tags or Filter by Tags Name the buyer's company (role buyer)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            Get all tags the buyer's company
+            if Name == null then Get All Tags
+            if Name != null then Filter Tags by Name
+            </remarks>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetListProducts(System.String)">
+            <summary>
+            Get list products of supplier (role buyer)
+            </summary>
+            <returns>List drp products</returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.GetSupplierDetails(System.String)">
+            <summary>
+            Get supplier detail by id (role buyer)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.UpdateSupplierProfile(System.String,BLL.Models.SupplierProfilesParam)">
+            <summary>
+            Update supplier profile by Id (role: buyer)
+            </summary>
+            <param name="supplierId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.BuyersController.Statistical">
+            <summary>
+            Get buyer dashboard statistical (role buyer)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.CompanyController.GetAllCompanyByUser(BLL.Models.GetFilterParams)">
+            <summary>
+            Get all company by user created (search, paging, order) (role administrator)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            - **pageNumber**: number of page
+            - **pageSize**: number of records per page
+            - **SortType**: 0 = Ascending ; 1 = Descending
+            - **SortOn**: is the name of field
+            - **FilterBy**: name of field for filter
+            - **FilterValue**: value of field for filter      
+            ex: /api/company?pageSize=10&#38;pageNumber=0&#38;SortType=0&#38;SortOn=DateCreated
+            ex: /api/company?SortType=0&#38;SortOn=DateCreated&#38;pageNumber=0&#38;pageSize=10&#38;FilterBy=Name&#38;FilterValue=Công ty ABC&#38;FilterBy=address&#38;FilterValue=Toàn
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.CompanyController.Get(System.String)">
+            <summary>
+            Get company by Id (role administrator)
+            </summary>
+            <param name="companyid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.CompanyController.Post(OtrafyAPI.ViewModel.CompanyViewModel)">
+            <summary>
+            Create Company (role administrator)
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.CompanyController.Put(System.String,OtrafyAPI.ViewModel.CompanyViewModel)">
+            <summary>
+            Update company by id (role administrator)
+            </summary>
+            <param name="companyid"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.CompanyController.Delete(System.String)">
+            <summary>
+            Delete Company by Id (role administrator)
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.CompanyController.GetBuyerDetailById(System.String)">
+            <summary>
+            Get buyer detail (role administrator) 
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            </remarks>
+            <param name="buyerId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.CompanyController.UpdateSupplierProfile(System.String,BLL.Models.BuyerParams)">
+            <summary>
+            Update buyer profile by Id (role: administrator)
+            </summary>
+            <param name="buyerId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.AddNewSupplier(BLL.Models.InviteSupplierParams)">
+            <summary>
+            Add new supplier (role buyer)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            </remarks>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.GetAllSupplierOfBuyer(BLL.Models.GetFilterParams)">
+            <summary>
+            Get all supplier of buyer (search, filter, paging, order) (role buyer) 
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            pending = 1: is Supplier new create; inprogress =2; completed = 3; approved = 4; rejected = 5
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.Put(System.String,OtrafyAPI.ViewModel.TagCompanyViewModel)">
+            <summary>
+            Remove supplier Tags (role buyer)
+            </summary>
+            <param name="supplierId"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.GetListSupplierCompanyName(System.String)">
+            <summary>
+            Get list supplier's company name (role buyer)
+            </summary>
+            <returns>List supplier's company name</returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.GetAllFormRequest(BLL.Models.GetFilterParams)">
+            <summary>
+            Get all form request(search, paging, order) (role supplier) 
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            Status: pending = 1, completed = 2, rejected = 3, approved = 4
+            </remarks>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.GetFormRequestDetail(System.String)">
+            <summary>
+            Get form request detail (role supplier) 
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            </remarks>
+            <param name="formRequestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.UpdateFormRequest(System.String,BLL.Models.FormRequestParam)">
+            <summary>
+            Update form request (role: supplier)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            Update form request with multi form
+            </remarks>
+            <param name="formrequestId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.UpdateCompleteFormRequest(System.String)">
+            <summary>
+            Update completed form request (role: supplier)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            API allow supplier update status form request to completed
+            </remarks>
+            <param name="formrequestId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.AddCommentToFormRequest(System.String,BLL.Models.FormRequestCommentParam)">
+            <summary>
+            Add comment to form request (role: supplier)
+            </summary>
+            <param name="formrequestId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.GetAllCommentOfFormRequestByID(System.String,BLL.Models.CommentsSortByParam)">
+            <summary>
+            Get all comment of form request by id (role: supplier)
+            </summary>
+            <param name="formrequestId"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.CreateProduct(BLL.Models.ProductParam)">
+            <summary>
+            Create product of supplier (role buyer)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            </remarks>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.GetAllProductBySuppliers(System.String,BLL.Models.GetFilterParams)">
+            <summary>
+            Get all product by supplierId (paging, search, order) (role buyer)
+            </summary>
+            <remarks>
+            ### Descriptions  ###
+            - **pageNumber**: number of page
+            - **pageSize**: number of records per page
+            - **SortType**: 0 = Ascending ; 1 = Descending
+            - **SortOn**: is the name of field
+            - **FilterBy**: name of field for filter
+            - **FilterValue**: value of field for filter      
+            ex: /api/company?pageSize=10&#38;pageNumber=0&#38;SortType=0&#38;SortOn=DateCreated
+            ex: /api/company?SortType=0&#38;SortOn=DateCreated&#38;pageNumber=0&#38;pageSize=10&#38;FilterBy=Name&#38;FilterValue=Công ty ABC&#38;FilterBy=address&#38;FilterValue=Toàn
+            ex: Filter/Search Multiple Fields in one textbox: /api/buyers/get-all-buyers?pageSize=10&#38;pageNumber=1&#38;CompanyId=5e04e609-f056-4d7b-87b0-aada009ad9c2&#38;FilterBy=Name&#38;FilterBy=Username&#38;FilterValue=trung&#38;FilterValue=trung001
+            </remarks>
+            <param name="supplierId"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.GetProductDetail(System.String)">
+            <summary>
+            Get product by id (role buyer)
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.EditProductDetail(System.String,BLL.Models.ProductEdit)">
+            <summary>
+            Update product by id (role buyer)
+            </summary>
+            <param name="model"></param>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SuppliersController.GetFormRequestByIdProduct(System.String,BLL.Models.GetFilterParams)">
+            <summary>
+            Get form request by product id (role buyer)
+            </summary>
+            <param name="productId">productID</param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OtrafyAPI.Controllers.SystemController.Get(System.String)">
+            <summary>
+            Create Database and collection User with defaults user
+            </summary>
+            <param name="setting"></param>
+            <returns></returns>
+            <response code="400"></response>
+        </member>
+    </members>
+</doc>

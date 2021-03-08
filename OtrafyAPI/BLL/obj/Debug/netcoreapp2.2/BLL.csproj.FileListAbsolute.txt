@@ -1,0 +1,14 @@
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\bin\Debug\netcoreapp2.2\BLL.deps.json
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\bin\Debug\netcoreapp2.2\BLL.runtimeconfig.json
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\bin\Debug\netcoreapp2.2\BLL.runtimeconfig.dev.json
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\bin\Debug\netcoreapp2.2\BLL.dll
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\bin\Debug\netcoreapp2.2\BLL.pdb
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\bin\Debug\netcoreapp2.2\DAL.dll
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\bin\Debug\netcoreapp2.2\DAL.pdb
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\obj\Debug\netcoreapp2.2\BLL.csprojAssemblyReference.cache
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\obj\Debug\netcoreapp2.2\BLL.csproj.CoreCompileInputs.cache
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\obj\Debug\netcoreapp2.2\BLL.AssemblyInfoInputs.cache
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\obj\Debug\netcoreapp2.2\BLL.AssemblyInfo.cs
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\obj\Debug\netcoreapp2.2\BLL.csproj.CopyComplete
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\obj\Debug\netcoreapp2.2\BLL.dll
+E:\BH_Soft\BH_Otrafy\OtrafyAPI\BLL\obj\Debug\netcoreapp2.2\BLL.pdb

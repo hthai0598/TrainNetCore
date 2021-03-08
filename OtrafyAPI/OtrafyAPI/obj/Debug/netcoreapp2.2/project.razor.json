@@ -1,0 +1,19 @@
+{
+  "FilePath": "e:\\BHTEch_Prj\\Otrafy_Proj\\MongoDB-RepositoryUoWPatterns-master\\OtrafyAPI\\OtrafyAPI.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 800
+  },
+  "RootNamespace": "OtrafyAPI",
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

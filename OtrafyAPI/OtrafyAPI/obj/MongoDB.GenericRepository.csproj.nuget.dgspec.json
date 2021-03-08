@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "e:\\BHTEch_Prj\\Otrafy_Proj\\MongoDB-RepositoryUoWPatterns-master\\MongoDB.GenericRepository\\MongoDB.GenericRepository.csproj": {}
+  },
+  "projects": {
+    "e:\\BHTEch_Prj\\Otrafy_Proj\\MongoDB-RepositoryUoWPatterns-master\\MongoDB.GenericRepository\\MongoDB.GenericRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\BHTEch_Prj\\Otrafy_Proj\\MongoDB-RepositoryUoWPatterns-master\\MongoDB.GenericRepository\\MongoDB.GenericRepository.csproj",
+        "projectName": "MongoDB.GenericRepository",
+        "projectPath": "e:\\BHTEch_Prj\\Otrafy_Proj\\MongoDB-RepositoryUoWPatterns-master\\MongoDB.GenericRepository\\MongoDB.GenericRepository.csproj",
+        "packagesPath": "C:\\Users\\Trung_Tong\\.nuget\\packages\\",
+        "outputPath": "e:\\BHTEch_Prj\\Otrafy_Proj\\MongoDB-RepositoryUoWPatterns-master\\MongoDB.GenericRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Trung_Tong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.7.3, )"
+            },
+            "ServiceStack.Core": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

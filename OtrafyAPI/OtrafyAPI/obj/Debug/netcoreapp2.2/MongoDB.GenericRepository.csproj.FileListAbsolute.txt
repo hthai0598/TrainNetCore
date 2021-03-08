@@ -1,0 +1,17 @@
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\bin\Debug\netcoreapp2.2\MongoDB.GenericRepository.deps.json
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\bin\Debug\netcoreapp2.2\MongoDB.GenericRepository.runtimeconfig.json
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\bin\Debug\netcoreapp2.2\MongoDB.GenericRepository.runtimeconfig.dev.json
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\bin\Debug\netcoreapp2.2\MongoDB.GenericRepository.dll
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\bin\Debug\netcoreapp2.2\MongoDB.GenericRepository.pdb
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.csprojAssemblyReference.cache
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.csproj.CoreCompileInputs.cache
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.RazorAssemblyInfo.cache
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.RazorAssemblyInfo.cs
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.AssemblyInfoInputs.cache
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.AssemblyInfo.cs
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.RazorTargetAssemblyInfo.cache
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.dll
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.pdb
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\bin\Debug\netcoreapp2.2\DAL.dll
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\bin\Debug\netcoreapp2.2\DAL.pdb
+E:\BHTEch_Prj\Otrafy_Proj\MongoDB-RepositoryUoWPatterns-master\MongoDB.GenericRepository\obj\Debug\netcoreapp2.2\MongoDB.GenericRepository.csproj.CopyComplete

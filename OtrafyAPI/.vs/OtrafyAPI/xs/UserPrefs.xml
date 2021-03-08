@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{86BDE810-8CE3-4E05-A936-868F43AB2E90}|Default">
+  <MonoDevelop.Ide.ItemProperties.OtrafyAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BLL/Helpers/ResponseResult.cs">
+    <Files>
+      <File FileName="OtrafyAPI/Controllers/BuyersController.cs" Line="145" Column="40" />
+      <File FileName="BLL/Helpers/ResponseResult.cs" Line="21" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OtrafyAPI" expanded="True">
+            <Node name="BLL" expanded="True">
+              <Node name="Helpers" expanded="True">
+                <Node name="ResponseResult.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="OtrafyAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
