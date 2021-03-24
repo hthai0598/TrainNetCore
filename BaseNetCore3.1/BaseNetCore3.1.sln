@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseNetCore3.1", "BaseNetCore3.1\BaseNetCore3.1.csproj", "{B4647D2B-D94B-4D42-8E47-113D21ECACAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4647D2B-D94B-4D42-8E47-113D21ECACAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4647D2B-D94B-4D42-8E47-113D21ECACAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4647D2B-D94B-4D42-8E47-113D21ECACAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4647D2B-D94B-4D42-8E47-113D21ECACAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E271F212-AB2D-4D13-9A65-21BB26EBA98C}
+	EndGlobalSection
+EndGlobal
