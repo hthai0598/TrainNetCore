@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{ECC0A65B-D4A2-4B95-9B5B-40B2CC8709C6}|Default">
+  <MonoDevelop.Ide.ItemProperties.HangFireDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HangFireDemo/Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="HangFireDemo/Controllers/ValuesController.cs" Line="25" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HangFireDemo" expanded="True">
+            <Node name="HangFireDemo" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ValuesController.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

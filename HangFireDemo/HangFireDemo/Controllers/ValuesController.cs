@@ -19,6 +19,11 @@ namespace HangFireDemo.Controllers
         [HttpGet("get")]
         public IEnumerable<string> Get()
         {
+            var a = "123";
+            if (a is not null)
+            {
+
+            }
             return new string[] { "value1", "value2" };
         }
 
@@ -31,17 +36,17 @@ namespace HangFireDemo.Controllers
             return Ok($"Welcome Email, jobId {jobid}");
         }
 
-        [HttpPost("delay")]
+        [HttpGet("delay")]
         //Delayed job: Thực thi 1 lần sau 1 khoảng thời gian quy định
         public IActionResult Delay()
         {
             int time = 30;
-            var jobid = BackgroundJob.Schedule(() => SendWelcomeEmail("Welcome"),TimeSpan.FromSeconds(time));
+            var jobid = BackgroundJob.Schedule(() => SendWelcomeEmail("Welcome"), TimeSpan.FromSeconds(time));
             return Ok($"doing after {time}");
         }
 
 
-        [HttpPost("databaseupdate")]
+        [HttpGet("databaseupdate")]
         //Recurring job: Lặp lại công việc nhiều lần dựa trên CRON schedule.
         public IActionResult DatabaseUpdate()
         {

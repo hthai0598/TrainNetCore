@@ -1,34 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\.NET\\HangFireDemo\\HangFireDemo\\HangFireDemo.csproj": {}
+    "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/HangFireDemo/HangFireDemo/HangFireDemo.csproj": {}
   },
   "projects": {
-    "D:\\Code\\.NET\\HangFireDemo\\HangFireDemo\\HangFireDemo.csproj": {
+    "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/HangFireDemo/HangFireDemo/HangFireDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\.NET\\HangFireDemo\\HangFireDemo\\HangFireDemo.csproj",
+        "projectUniqueName": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/HangFireDemo/HangFireDemo/HangFireDemo.csproj",
         "projectName": "HangFireDemo",
-        "projectPath": "D:\\Code\\.NET\\HangFireDemo\\HangFireDemo\\HangFireDemo.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\.NET\\HangFireDemo\\HangFireDemo\\obj\\",
+        "projectPath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/HangFireDemo/HangFireDemo/HangFireDemo.csproj",
+        "packagesPath": "/Users/mac_nhthai/.nuget/packages/",
+        "outputPath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/HangFireDemo/HangFireDemo/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mac_nhthai/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +39,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Hangfire": {
               "target": "Package",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }
