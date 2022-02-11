@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mac_nhthai/Documents/Code/NET/Rabbit/RabbitMQ/RabbitMQ/RabbitMQ.csproj": {}
+  },
+  "projects": {
+    "/Users/mac_nhthai/Documents/Code/NET/Rabbit/RabbitMQ/RabbitMQ/RabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mac_nhthai/Documents/Code/NET/Rabbit/RabbitMQ/RabbitMQ/RabbitMQ.csproj",
+        "projectName": "RabbitMQ",
+        "projectPath": "/Users/mac_nhthai/Documents/Code/NET/Rabbit/RabbitMQ/RabbitMQ/RabbitMQ.csproj",
+        "packagesPath": "/Users/mac_nhthai/.nuget/packages/",
+        "outputPath": "/Users/mac_nhthai/Documents/Code/NET/Rabbit/RabbitMQ/RabbitMQ/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mac_nhthai/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "/Users/mac_nhthai/Desktop/Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

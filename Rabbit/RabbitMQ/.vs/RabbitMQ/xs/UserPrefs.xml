@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{2566F28C-1BB5-46D1-B1FB-5EF605035667}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RabbitMQ/TopicExchangePublisher.cs">
+    <Files>
+      <File FileName="RabbitMQ/DriectExchangePublisher.cs" Line="19" Column="39" />
+      <File FileName="RabbitMQ/TopicExchangePublisher.cs" Line="19" Column="72" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RabbitMQ" expanded="True">
+            <Node name="RabbitMQ" expanded="True">
+              <Node name="TopicExchangePublisher.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RabbitMQ PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

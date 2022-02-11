@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{416D9E4F-763E-4A32-BDB3-09EB47FC7E64}|Default">
+  <MonoDevelop.Ide.ItemProperties.BackgroundTask.Demo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BackgroundTask.Demo/DerivedBackground.cs">
+    <Files>
+      <File FileName="BackgroundTask.Demo/BackgroundPrinter.cs" Line="26" Column="1" />
+      <File FileName="BackgroundTask.Demo/Program.cs" Line="25" Column="20" />
+      <File FileName="BackgroundTask.Demo/Worker.cs" Line="22" Column="44" />
+      <File FileName="BackgroundTask.Demo/DerivedBackground.cs" Line="15" Column="10" />
+      <File FileName="BackgroundTask.Demo/Startup.cs" Line="30" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BackgroundTask.Demo" expanded="True">
+            <Node name="BackgroundTask.Demo" expanded="True">
+              <Node name="BackgroundPrinter.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{B8541BF0-39EA-4959-8162-5BF461106F1E}|Default">
+  <MonoDevelop.Ide.ItemProperties.Ocelot.Demo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ocelot.Demo/ocelot.dev.json">
+    <Files>
+      <File FileName="Ocelot.Demo/ocelot.dev.json" Line="21" Column="24" />
+      <File FileName="Ocelot.Demo/Startup.cs" Line="41" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ocelot.Demo" expanded="True">
+            <Node name="Ocelot.Demo" expanded="True">
+              <Node name="ocelot.json" expanded="True">
+                <Node name="ocelot.dev.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

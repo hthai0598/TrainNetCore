@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NEQsaJZS0PADGj7GatDGWXHA23nuZbCZR8oMYy2ovX6+KSSPNdqi213Z0Z3zZQ9wuoRvH+Mxg/iQJ4Cei5zwug==",
+  "dgSpecHash": "LBFFtgI8zd/hd4debFudJZapSaQCcJKZmpoXOtNC1sulQ8QUozksVx/PkjlIsG5L/FThA/APqJB5KWQL/HyMuQ==",
   "success": true,
-  "projectFilePath": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/OtrafyAPI/OtrafyAPI.csproj",
+  "projectFilePath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/OtrafyAPI/OtrafyAPI.csproj",
   "expectedPackageFiles": [
     "/Users/mac_nhthai/.nuget/packages/dnsclient/1.2.0/dnsclient.1.2.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/mailkit/2.2.0/mailkit.2.2.0.nupkg.sha512",
@@ -340,7 +340,7 @@
     "/Users/mac_nhthai/.nuget/packages/system.threading.tasks.parallel/4.3.0/system.threading.tasks.parallel.4.3.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.threading.thread/4.3.0/system.threading.thread.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.threading.threadpool/4.3.0/system.threading.threadpool.4.3.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/Users/mac_nhthai/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",

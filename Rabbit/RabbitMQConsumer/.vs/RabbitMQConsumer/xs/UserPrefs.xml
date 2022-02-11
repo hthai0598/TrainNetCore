@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{C5334793-A16C-4078-A9AD-C5155FA9E4EE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RabbitMQConsumer/DirectExchangeConsumer.cs">
+    <Files>
+      <File FileName="RabbitMQConsumer/Program.cs" Line="18" Column="65" />
+      <File FileName="RabbitMQConsumer/DirectExchangeConsumer.cs" Line="18" Column="80" />
+      <File FileName="RabbitMQConsumer/TopicExchangeConsumer.cs" />
+      <File FileName="RabbitMQConsumer/QueueConsumer.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RabbitMQConsumer" expanded="True">
+            <Node name="RabbitMQConsumer" expanded="True">
+              <Node name="DirectExchangeConsumer.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RabbitMQConsumer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/BLL/BLL.csproj": {}
+    "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/BLL/BLL.csproj": {}
   },
   "projects": {
-    "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/BLL/BLL.csproj": {
+    "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/BLL/BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/BLL/BLL.csproj",
+        "projectUniqueName": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/BLL/BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/BLL/BLL.csproj",
+        "projectPath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/BLL/BLL.csproj",
         "packagesPath": "/Users/mac_nhthai/.nuget/packages/",
-        "outputPath": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/BLL/obj/",
+        "outputPath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/BLL/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -23,14 +23,15 @@
           "netcoreapp2.2"
         ],
         "sources": {
+          "/Users/mac_nhthai/Desktop/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/DAL/DAL.csproj": {
-                "projectPath": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/DAL/DAL.csproj"
+              "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/DAL/DAL.csproj": {
+                "projectPath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/DAL/DAL.csproj"
               }
             }
           }
@@ -78,18 +79,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/DAL/DAL.csproj": {
+    "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/DAL/DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/DAL/DAL.csproj",
+        "projectUniqueName": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/DAL/DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/DAL/DAL.csproj",
+        "projectPath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/DAL/DAL.csproj",
         "packagesPath": "/Users/mac_nhthai/.nuget/packages/",
-        "outputPath": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/DAL/obj/",
+        "outputPath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/DAL/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -101,6 +102,7 @@
           "netstandard2.0"
         ],
         "sources": {
+          "/Users/mac_nhthai/Desktop/Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -148,7 +150,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

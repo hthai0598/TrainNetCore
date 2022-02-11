@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tkLL6ACsLX3zbJc31EDK8H3MYirLVmej7IZYBJwP6X6WmZeJVoEW3+eB8J++k27EwLoujLg2ichJ0JoP4kishg==",
+  "dgSpecHash": "hrGOoSOnTgtqB1tdAz84I+ZbdJ7o0X4mS+pjLFnR0dNhC2ja3ku/UAVfhLiA2sdhM/xg2e0UjXkmHKZ1laZGgQ==",
   "success": true,
-  "projectFilePath": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/DAL/DAL.csproj",
+  "projectFilePath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/DAL/DAL.csproj",
   "expectedPackageFiles": [
     "/Users/mac_nhthai/.nuget/packages/dnsclient/1.2.0/dnsclient.1.2.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
@@ -161,7 +161,7 @@
     "/Users/mac_nhthai/.nuget/packages/system.threading.tasks.extensions/4.3.0/system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.threading.thread/4.3.0/system.threading.thread.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.threading.threadpool/4.3.0/system.threading.threadpool.4.3.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/Users/mac_nhthai/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yeBQQ9VoOfqU/YRaCV//xVarV7hQk1l91H1Uw4rtT5tXXse0++3yPrq66kuc5TIf++I5wrSyjitI21GdsnxeTg==",
+  "dgSpecHash": "jbKpBO28d05fahUddSwUqg/tu8t7grX6OPiFxD7KpYCJmxy2xdIy5Lwd8S6sJkK84nQTLe2LcVD0apVS1WtnlA==",
   "success": true,
-  "projectFilePath": "/Users/mac_nhthai/Documents/Code/NET/BacHaCompany/Otrafy_B2B/BH_Otrafy/OtrafyAPI/BLL/BLL.csproj",
+  "projectFilePath": "/Users/mac_nhthai/Documents/Code/Git/TrainNetCore/OtrafyAPI/BLL/BLL.csproj",
   "expectedPackageFiles": [
     "/Users/mac_nhthai/.nuget/packages/dnsclient/1.2.0/dnsclient.1.2.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/microsoft.aspnet.webapi.client/5.2.6/microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
@@ -314,7 +314,7 @@
     "/Users/mac_nhthai/.nuget/packages/system.threading.tasks.parallel/4.3.0/system.threading.tasks.parallel.4.3.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.threading.thread/4.3.0/system.threading.thread.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.threading.threadpool/4.3.0/system.threading.threadpool.4.3.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/Users/mac_nhthai/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/mac_nhthai/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
