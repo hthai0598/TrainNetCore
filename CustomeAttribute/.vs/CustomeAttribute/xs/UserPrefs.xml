@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{3EC68D50-38AD-41CB-94C5-2C5ECBCB83DE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomeAttribute/Program.cs">
+    <Files>
+      <File FileName="CustomeAttribute/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CustomeAttribute" expanded="True">
+            <Node name="CustomeAttribute" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CustomeAttribute FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

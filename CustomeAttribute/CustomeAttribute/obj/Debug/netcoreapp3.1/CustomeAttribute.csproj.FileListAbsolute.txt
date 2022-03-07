@@ -1,0 +1,13 @@
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/bin/Debug/netcoreapp3.1/CustomeAttribute.deps.json
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/bin/Debug/netcoreapp3.1/CustomeAttribute.runtimeconfig.json
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/bin/Debug/netcoreapp3.1/CustomeAttribute.runtimeconfig.dev.json
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/bin/Debug/netcoreapp3.1/CustomeAttribute.dll
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/bin/Debug/netcoreapp3.1/CustomeAttribute.pdb
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/obj/Debug/netcoreapp3.1/CustomeAttribute.csproj.AssemblyReference.cache
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/obj/Debug/netcoreapp3.1/CustomeAttribute.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/obj/Debug/netcoreapp3.1/CustomeAttribute.AssemblyInfoInputs.cache
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/obj/Debug/netcoreapp3.1/CustomeAttribute.AssemblyInfo.cs
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/obj/Debug/netcoreapp3.1/CustomeAttribute.csproj.CoreCompileInputs.cache
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/obj/Debug/netcoreapp3.1/CustomeAttribute.dll
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/obj/Debug/netcoreapp3.1/CustomeAttribute.pdb
+/Users/mac_nhthai/Documents/Code/NET/CustomeAttribute/CustomeAttribute/obj/Debug/netcoreapp3.1/CustomeAttribute.genruntimeconfig.cache
